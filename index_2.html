@@ -1,0 +1,967 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Periscop / Existe un sólo viaje para ti</title>
+		<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<!-- SECCIÓN SEO -->
+		<meta name="description" content="[Por definir en cada pagina segun copys de SEO]" />
+		<meta name="keywords" content="[Por definir en cada sección por la estrategia SEO]" />
+		<meta property="og:title" content="[Por definir en cada sección por la estrategia SEO]" />
+		<meta property="og:url" content="[Por definir en cada sección por la estrategia SEO]" />
+		<meta property="og:image" content="[Por definir en cada sección por la estrategia SEO]" />
+		<meta property="og:site_name" content="[Por definir en cada sección por la estrategia SEO]" />
+		<meta property="og:description" content="[Por definir en cada sección por la estrategia SEO]" />
+		<meta name="Robots" content="All"/>
+		<meta name="Copyright" content="Periscop"/>
+		<link rel="canonical" href="http://www.periscop.es"/>
+		<!-- META APLICACIÓN FACEBOOK SI LA TIENE -->
+		<meta property="fb:app_id" content="[XXX]" />
+		<!-- HOJAS DE ESTILO -->		
+		<link rel="stylesheet" type="text/css" href="theme/default/travel/reset.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="theme/default/travel/fonts.css" media="all"/>
+		<link rel="STYLESHEET" type="text/css" href="theme/default/travel/gridabsolute.css"/>
+		<link rel="STYLESHEET" type="text/css" href="theme/default/travel/fondos.css"/>
+		<link rel="stylesheet" type="text/css" href="theme/default/travel/style.css" medis="screen"/>
+		<link rel="stylesheet" type="text/css" href="theme/default/travel/generic.css" media="all"/>	
+		<link rel="STYLESHEET" type="text/css" href="theme/default/travel/jquery-ui-1.10.0.custom.css">
+		<!-- Condicional IE8 -->
+		<!--[if (lte IE 8)]> 
+			<link rel="STYLESHEET" type="text/css" href="theme/default/travel/ie8css3.css"/>
+		<![endif]--> 
+		<!-- CARGA DE TODOS LOS JS POR SECCIÓN Y GLOBALES QUE SEAN NECESARIOS POR DEFINIR-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="static/scripts/libs/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+		<!--[if (gte IE 6)&(lte IE 8)]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script type="text/javascript" src="/static/scripts/libs/selectivizr-min.js"></script>
+		<![endif]--> 
+	</head>
+	<body>
+		<!-- B: HEAD -->
+		<div class="container clearfix">
+			<header class="head clearfix">
+				<!-- B: PRE HEAD -->
+				<section class="phead clearfix">
+					<div class="phead-ctd">
+						<a href="javascript:void(0);" title="Conoce el Blog de viajes de Periscop"><i class="icon-blog"></i>Blog de Viajes</a>
+					</div>	
+					<ul class="phead-nav">
+						<li><a href="javascript:void(0);" title="Hola Victor, accede a tu zona privada de Periscop"><i class="icon-user"></i>Hola Victor</a></li>
+						<li><a href="javascript:void(0);" title="Accede y realiza el CheckOut de tu Compra: 45€"><i class="icon-cart"></i>45€</a></li>
+						<li><a href="javascript:void(0);"><i class="icon-logout"></i>Salir</a></li>
+					</ul>
+				</section>
+				<!-- E: PRE HEAD -->
+				<h2 class="head-logo"><a href="javascript:void(0);" title="Conoce tu web de viajes, conoce Periscop">Periscop</a></h2>
+				<!-- B: HEAD NAVIGATION -->
+				<nav class="head-nav clearfix">
+					<!-- B: HEAD NAVIGATION 1 LEVEL -->
+					<ul class="head-nav1 nav nav-tabs js-head-nav1">
+						<li><a href="ofertas-flash.html" title="Ver ofertas flash" class="js-head-link"><i class="icon-nav1-deals"></i><span class="opt">Ofertas Flash<i class="icon-nav1"></i></span><span class="icon-nav1-select"></span></a></li>
+						<li><a href="vuelos-hoteles.html" data-toggle="tab" title="Ver Busca el vuelo y hotel para tus vacaciones en Periscop"  class="js-head-link"><i class="icon-nav1-reserve"></i><span class="opt">Vuelos y hoteles<i class="icon-nav1"></i></span><span class="icon-nav1-select"></span></a></li>
+						<li><a href="destinos.html" data-toggle="tab" title="Destinos, te recomendamos los mejores viajes con Periscop" class="js-head-link"><i class="icon-nav1-destinations"></i><span class="opt">Destinos<i class="icon-nav1"></i></span><span class="icon-nav1-select"></span></a></li>
+						<li><a href="te-recomendamos.html" data-toggle="tab" title="Te recomendamos los mejores viajes y hoteles en Periscop" class="js-head-link"><i class="icon-nav1-travels"></i><span class="opt">Te recomendamos<i class="icon-nav1"></i></span><span class="icon-nav1-select"></span></a></li>  
+					</ul>
+					<!-- E: HEAD NAVIGATION 1 LEVEL -->
+					<!-- B: HEAD NAVIGATION 1 LEVEL CONTENT -->
+					<div class="tab-content js-head-nav1-ctd">
+						<div class="head-dropdown tab-pane js-head-nav1-tab" id="js-head-target"></div>
+					</div>
+					<!-- E: HEAD NAVIGATION FIRST LEVEL CONTENT -->
+				</nav>
+				<!-- E: HEAD NAVIGATION -->
+			</header>
+		</div>
+		<!-- E: HEAD -->
+		<!-- B: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR -->
+		<section class="container-big claim-search">
+			<div class="clearfix">
+				<h2>Existe un viaje sólo para ti</h2>
+				<ul class="nav nav-tabs pr-auto">
+					<li class="active brd"><a href="#claim-search-ofertas" title="Buscar Ofertas en Periscop" data-toggle="tab"><span><i class="icon-claim"></i>Ofertas</span></a><i class="icon-nav-claim"></i></li>
+					<li class="brd"><a href="#claim-search-hoteles" title="Buscar Hoteles en Periscop" data-toggle="tab"><span><i class="icon-claim"></i>Hoteles</span></a><i class="icon-nav-claim"></i></li>
+					<li class="brd"><a href="#claim-search-vuelos" title="Buscar Vuelos en Periscop" data-toggle="tab"><span><i class="icon-claim"></i>Vuelos</span></a><i class="icon-nav-claim"></i></li>
+					<li class="brd"><a href="#claim-search-vueloshoteles" title="Buscar Vuelos y hoteles en Periscop" data-toggle="tab"><span><i class="icon-claim"></i>Vuelos y hoteles</span></a><i class="icon-nav-claim"></i></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="claim-search-ofertas">
+						<!-- B: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR OFERTAS -->
+						<h3>Buscador de ofertas sólo para ti en Periscop</h3>
+						<form name="fsearchClaim-ofe" id="fsearchClaim-ofe" method="post" action="javascript:void(0);" class="form claim-w1 ng container-big-content">
+							<fieldset class="pr">
+								<legend>Formulario de búsqueda de ofertas en viajes en Periscop</legend>
+								<div class="claim-box brd pr">
+									<div class="row clearfix">
+										<div class="span3">
+											<label for="fsearchClaim-ofe-ori">Desde</label>
+											<div class="pr-auto"><input type="text" name="fsearchClaim-ofe-ori" id="fsearchClaim-ofe-ori" value="Barcelona" class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona tu destino" class="btt-locate">Selecciona tu origen</a></div>
+										</div>
+										<div class="span3">
+											<label for="fsearchClaim-ofe-des">¿Dónde quieres ir?</label>
+											<div class="pr-auto"><input type="text" name="fsearchClaim-ofe-des" id="fsearchClaim-ofe-des" value="País, ciudad, Hotel" class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona tu destino" class="btt-locate">Selecciona tu origen</a></div>
+										</div>
+										<div class="span2">
+											<label for="fsearchClaim-ofe-fechaINI">¿Cúando quieres ir?</label>
+											<div class="pr-auto"><input type="text" name="fsearchClaim-ofe-fechaINI" id="fsearch-ofsearchClaim-ofe-fechaINIflash-fechaINI" value="Fecha de salida" class="size-xlarge brd cps js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de salida" class="btt-date">Selecciona tu fecha de salida</a> --></div>
+										</div>
+										<div class="span2">
+											<label for="fsearchClaim-ofe-fechaFIN">¿Y volver?</label>
+											<div class="pr-auto"><input type="text" name="fsearchClaim-ofe-fechaFIN" id="fsearchClaim-ofe-fechaFIN" value="Fecha de vuelta" class="size-xlarge brd cps  js-datepicker"><!-- <a href="javascript:void(0);" title="Fecha de Vuelta" class="btt-date">Selecciona tu fecha de vuelta</a> --></div>
+										</div>
+									</div>
+								</div>
+								<div class="acc"><div class="pr-btt"><input type="submit" value="Encuentra tu oferta" class="button-search brd"></div></div>
+							</fieldset>
+						</form>
+						<div class="claim-rec">
+							<div class="container-big-content">
+								<h2>¿Buscando algo en concreto?</h2>
+								<div class="row clearfix">
+									<div class="span9">
+										<ul class="row clearfix">
+											<li class="span2">
+												<a href="javascript:void(0);" title="Consultar destino: Nieve en España"><img src="pub/list_claim/lugar1.jpg" width="167" height="114" alt="Nieve en España"></a>
+												<h4><a href="javascript:void(0);" title="Consultar destino: Nieve en España">Nieve en España</a></h4>
+											</li>
+											<li class="span2">
+												<a href="javascript:void(0);" title="Consultar destino: Capitales europeas"><img src="pub/list_claim/lugar2.jpg" width="167" height="114" alt="Capitales europeas"></a>
+												<h4><a href="javascript:void(0);" title="Consultar destino: Capitales europeas">Capitales europeas</a></h4>
+											</li>
+											<li class="span2">
+												<a href="javascript:void(0);" title="Consultar destino: Oriente medio"><img src="pub/list_claim/lugar3.jpg" width="167" height="114" alt="Oriente medio"></a>
+												<h4><a href="javascript:void(0);" title="Consultar destino: Oriente medio">Oriente medio</a></h4>
+											</li>
+										</ul>
+									</div>
+									<div class="span3">
+										<i class="deco-periscop-medium"></i>
+										<h3>
+											<span>¿No sabes donde ir?</span>
+											<a href="" title="Consulta las recomendaciones en viajes, vuelos y hoteles en Periscop">Nosotros le recomendamos</a><br>
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>						
+						<!-- E: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR OFERTAS -->
+					</div>
+					<div class="tab-pane" id="claim-search-hoteles">
+						<!-- B: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR HOTELES -->
+						<h3>Buscador de Hoteles sólo para ti en Periscop</h3>
+						<form name="fsearchClaim-hot" id="fsearchClaim-hot" method="post" action="javascript:void(0);" class="form claim-w2 ng container-big-content">
+							<fieldset class="pr">
+								<legend>Formulario de búsqueda de hoteles en Periscop</legend>
+								<div class="claim-box brd">
+									<div class="row clearfix">
+										<label for="fsearchClaim-hot-des">Destino</label>
+										<div class="pr-auto"><input type="text" name="fsearchClaim-hot-des" id="fsearchClaim-hot-des" value="Selecciona"  class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona tu destino" class="btt-locate">Selecciona tu destino</a></div>
+									</div>
+									<div class="row clearfix">
+										<div class="span6">
+											<label for="fsearchClaim-hot-fechaINI">¿Cúando quiere ir?</label>
+											<div class="pr-auto"><input type="text" name="fsearchClaim-hot-fechaINI" id="fsearchClaim-hot-fechaINI" value="Seleciona"  class="size-xlarge brd cps js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de salida" class="btt-date">Selecciona tu fecha de salida</a> --></div>
+										</div>
+										<div class="span6">
+											<label for="fsearchClaim-hot-fechaFIN">¿Y volver?</label>
+											<div class="pr-auto"><input type="text" name="fsearchClaim-hot-fechaFIN" id="fsearchClaim-hot-fechaFIN" value="Seleciona"  class="size-xlarge brd cps js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de vuelta" class="btt-date">Selecciona tu fecha de vuelta</a> --></div>
+										</div>
+									</div>
+								</div>
+								<div class="claim-box brd">
+									<div class="row clearfix">
+										<div class="span3">
+											<label for="fsearchClaim-hot-hab">Nº de habitaciones</label>
+											<div class="pr-auto"><select name="fsearchClaim-hot-hab" id="fsearchClaim-hot-hab" class="js-select-periscop" onchange="viewBlock('js-claim-hot-room', this.value);">
+												<option selected="selected" value="1">1 habitacion</option>
+												<option value="2">2 habitaciones</option>
+											</select></div>
+										</div>
+										<div class="span9 clearfix">
+											<div id="js-claim-hot-room-1" class="row clearfix js-claim-hot-room">
+												<div class="span4 form-hab"><strong>Habitación 1:</strong></div>
+												<div class="span4">
+													<label for="fsearchClaim-hot-adu1">Adultos</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-hot-adu1" id="fsearchClaim-hot-adu1" class="js-select-periscop">
+														<option selected="selected" value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select></div>
+													<div class="help">Mayor o igual 17 años</div>
+												</div>
+												<div class="span4">
+													<label for="fsearchClaim-hot-nin1" class="ng">Niños</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-hot-nin1" id="fsearchClaim-hot-nin1" class="js-select-periscop">
+														<option selected="selected" value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select></div>
+													<div class="help">Menor de 17 años</div>
+												</div>
+											</div>
+											<div id="js-claim-hot-room-2" class="row clearfix js-claim-hot-room hide">
+												<div class="span4 form-hab"><strong>Habitación 2:</strong></div>
+												<div class="span4">
+													<label for="fsearchClaim-hot-adu2">Adultos</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-hot-adu2" id="fsearchClaim-hot-adu2" class="js-select-periscop">
+														<option selected="selected" value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select></div>
+												</div>
+												<div class="span4">
+													<label for="fsearchClaim-hot-nin2">Niños</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-hot-nin2" id="fsearchClaim-hot-nin2" class="js-select-periscop">
+														<option selected="selected" value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="acc"><div class="pr-btt"><input type="submit" value="Buscar hoteles" class="button-search brd"></div></div>
+							</fieldset>
+						</form>
+						<!-- E: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR OFERTAS -->
+					</div>
+					<div class="tab-pane" id="claim-search-vuelos">
+						<!-- B: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR VUELOS -->
+						<h3>Buscador de vuelos en Periscop</h3>
+						<form name="fsearchClaim-vue" id="fsearchClaim-vue" method="post" action="javascript:void(0);" class="form claim-w2 ng container-big-content">
+							<fieldset class="pr">
+								<legend>Formulario de búsqueda de ofertas en Vuelos en Periscop</legend>
+								<div class="claim-box brd">
+									<div class="row clearfix">
+										<div class="span10">
+											<div class="row-clearfix">
+												<div class="span6">
+													<label for="fsearchClaim-vue-ori">Origen</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vue-ori" id="fsearchClaim-vue-ori" value="Selecciona" class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona origen" class="btt-locate">Selecciona origen</a></div>
+												</div>
+												<div class="span6">
+													<label for="fsearchClaim-vue-des">Destino</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vue-des" id="fsearchClaim-vue-des" value="Selecciona" class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona tu destino" class="btt-locate">Selecciona tu destino</a></div>
+												</div>
+											</div>
+											<div class="row-clearfix">
+												<div class="span6">
+													<label for="fsearchClaim-vue-fechaINI">¿Cúando quiere ir?</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vue-fechaINI" id="fsearchClaim-vue-fechaINI" value="Selecciona" class="size-xlarge brd cps  js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de salida" class="btt-date">Selecciona tu fecha de salida</a> --></div>
+												</div>
+												<div class="span6">
+													<label for="fsearchClaim-vue-fechaFIN">¿Cúando quieres regresar?</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vue-fechaFIN" id="fsearchClaim-vue-fechaFIN" value="Selecciona" class="size-xlarge brd cps js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de vuelta" class="btt-date">Selecciona tu fecha de vuelta</a> --></div>
+												</div>
+											</div>
+										</div>
+										<div class="span2 form-mini">
+											<label for="fsearchClaim-vue-idavue" class="rc">
+												<input type="radio" name="fsearchClaim-vue-idavue" id="fsearchClaim-vue-idavue" checked="checked" value="1">Ida y vuelta
+											</label>
+											<label for="fsearchClaim-vue-ida" class="rc text-mini">
+												<input type="radio" name="fsearchClaim-vue-idavue" id="fsearchClaim-vue-ida" checked="checked" value="0">Sólo ida
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="claim-box brd">
+									<div class="row clearfix">
+										<div class="span5">
+											<div class="row clearfix">
+												<div class="span6">
+													<label for="fsearchClaim-vue-adu" class="ng">Adultos</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-vue-adu" id="fsearchClaim-vue-adu" class="js-select-periscop">
+														<option selected="selected" value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select></div>
+													<div class="help">Mayor o igual 17 años</div>
+												</div>
+												<div class="span6">
+													<label for="fsearchClaim-vue-nin" class="ng">Niños</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-vue-nin" id="fsearchClaim-vue-nin" class="js-select-periscop" onchange="viewBlock('js-claim-vue-boy', this.value);">
+														<option selected="selected" value="0">0</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+													</select></div>
+													<div class="help">Menor de 17 años</div>
+												</div>
+											</div>
+										</div>
+										<div class="span7">
+											<div class="row clearfix">
+												<div id="js-claim-vue-boy-1" class="span4 js-claim-vue-boy hide">
+													<label for="fsearchClaim-vue-ninE1">Edad niño 1:</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-vue-ninE1" id="fsearchClaim-vue-ninE1" class="js-select-periscop">
+														<option selected="selected" value="0">0 a 3</option>
+														<option value="1">3 a 5</option>
+														<option value="2">5 a 7</option>
+													</select></div>
+												</div>
+												<div id="js-claim-vue-boy-2" class="span4 js-claim-vue-boy hide">
+													<label for="fsearchClaim-vue-ninE2">Edad niño 2:</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-vue-ninE2" id="fsearchClaim-vue-ninE2" class="js-select-periscop">
+														<option selected="selected" value="0">0 a 3</option>
+														<option value="1">3 a 5</option>
+														<option value="2">5 a 7</option>
+													</select></div>
+												</div>
+												<div id="js-claim-vue-boy-3" class="span4 js-claim-vue-boy hide">
+													<label for="fsearchClaim-vue-ninE3">Edad niño 3:</label>
+													<div class="pr-auto size-special"><select name="fsearchClaim-vue-ninE3" id="fsearchClaim-vue-ninE3" class="js-select-periscop">
+														<option selected="selected" value="0">0 a 3</option>
+														<option value="1">3 a 5</option>
+														<option value="2">5 a 7</option>
+													</select></div>
+												</div>
+											</div>
+											<br>
+											<label for="fsearchClaim-vue-pri" class="rc">
+												<input type="checkbox" name="fsearchClaim-vue-pri" id="fsearchClaim-vue-pri"> Soy <a href="javascript:void(0);" title="Leer más: Soy residente">residente</a> o <a href="javascript:void(0);" title="Leer más: Familia numerosa">familia numerosa</a>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="acc"><div class="pr-btt"><input type="submit" value="Encuentra tu vuelo" class="button-search brd"></div></div>
+							</fieldset>
+						</form>
+						<!-- E: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR VUELOS -->
+					</div>
+					<div class="tab-pane" id="claim-search-vueloshoteles">
+						<!-- B: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR VUELOS + HOTELES -->
+						<h3>Buscador de vuelos y hoteles en Periscop</h3>
+						<form name="fsearchClaim-vuehot" id="fsearchClaim-vuehot" method="post" action="javascript:void(0);" class="form claim-w2 ng container-big-content">
+							<fieldset class="pr">
+								<legend>Formulario de búsqueda de ofertas en Vuelos+Hotel en Periscop</legend>
+								<div class="claim-box brd">
+									<div class="row clearfix">
+										<div class="span10">
+											<div class="row-clearfix">
+												<div class="span6">
+													<label for="fsearchClaim-vuehot-ori">Origen</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vuehot-ori" id="fsearchClaim-vuehot-ori" value="Selecciona"  class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona origen" class="btt-locate">Selecciona origen</a></div>
+												</div>
+												<div class="span6">
+													<label for="fsearchClaim-vuehot-des">Destino</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vuehot-des" id="fsearchClaim-vuehot-des" value="Selecciona"  class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona tu destino" class="btt-locate">Selecciona tu destino</a></div>
+												</div>
+											</div>
+											<div class="row-clearfix">
+												<div class="span6">
+													<label for="fsearchClaim-vuehot-fechaINI">¿Cúando quiere ir?</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vuehot-fechaINI" id="fsearchClaim-vuehot-fechaINI" value="Selecciona" class="size-xlarge brd cps js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de salida" class="btt-date">Selecciona tu fecha de salida</a> --></div>
+												</div>
+												<div class="span6">
+													<label for="fsearchClaim-vuehot-fechaFIN">¿Y volver?</label>
+													<div class="pr-auto"><input type="text" name="fsearchClaim-vuehot-fechaFIN" id="fsearchClaim-vuehot-fechaFIN" value="Selecciona" class="size-xlarge brd cps js-datepicker"><!-- <a href="javascript:void(0);" title="Selecciona tu fecha de vuelta" class="btt-date">Selecciona tu fecha de vuelta</a> --></div>
+												</div>
+											</div>
+										</div>
+										<fieldset class="span2 form-mini">
+											<legend>Selección de Ida y vuelta</legend>
+											<label for="fsearchClaim-vuehot-idavue" class="rc">
+												<input type="radio" name="fsearchClaim-vuehot-idavue" id="fsearchClaim-vuehot-idavue" checked="checked" value="1">Ida y vuelta
+											</label>
+											<label for="fsearchClaim-vuehot-ida" class="rc ng text-mini">
+												<input type="radio" name="fsearchClaim-vuehot-idavue" id="fsearchClaim-vuehot-ida" checked="checked" value="0">Sólo ida
+											</label>
+										</fieldset>
+									</div>
+								</div>
+								<div class="claim-box brd">
+									<div class="row clearfix">
+										<div class="span3">
+											<label for="fsearchClaim-vuehot-hab">Nº habitaciones</label>
+											<div class="pr-auto"><select name="fsearchClaim-vuehot-hab" id="fsearchClaim-vuehot-hab" class="js-select-periscop"  onchange="viewBlock('js-claim-vuehot-room', this.value);">
+												<option selected="selected" value="1">1 Habitación</option>
+												<option value="2">2 habitaciones</option>
+											</select></div>
+										</div>
+										<div class="span9">
+											<div id="js-claim-vuehot-room-1" class="row clearfix js-claim-vuehot-room">
+												<div class="span3 form-hab"><strong>Habitación 1:</strong></div>
+												<div class="span9">
+													<div class="row clearfix">
+														<div class="span5">
+															<label for="fsearchClaim-vuehot-adu">Adultos</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot-adu" id="fsearchClaim-vuehot-adu" class="js-select-periscop">
+																<option selected="selected" value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+															</select></div>
+															<div class="help">Mayor o igual 17 años</div>
+														</div>
+														<div class="span5">
+															<label for="fsearchClaim-vuehot1-nin">Niños</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot1-nin" id="fsearchClaim-vuehot1-nin" class="js-select-periscop" onchange="viewBlock('js-claim-vuehot1-boy', this.value);">
+																<option selected="selected" value="0">0</option>
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+															</select></div>
+															<div class="help">Menor de 17 años</div>
+														</div>
+													</div>
+													<div class="row clearfix">
+														<div id="js-claim-vuehot1-boy-1" class="span4 js-claim-vuehot1-boy hide">
+															<label for="fsearchClaim-vuehot1-ninE1">Edad niño 1:</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot1-ninE1" id="fsearchClaim-vuehot1-ninE1" class="js-select-periscop">
+																<option selected="selected" value="0">0 a 3</option>
+																<option value="1">3 a 5</option>
+																<option value="2">5 a 7</option>
+															</select></div>
+														</div>
+														<div id="js-claim-vuehot1-boy-2" class="span4 js-claim-vuehot1-boy hide">
+															<label for="fsearchClaim-vuehot1-ninE2">Niño 2:</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot1-ninE2" id="fsearchClaim-vuehot1-ninE2" class="js-select-periscop">
+																<option selected="selected" value="0">0 a 3</option>
+																<option value="1">3 a 5</option>
+																<option value="2">5 a 7</option>
+															</select></div>
+														</div>
+														<div id="js-claim-vuehot1-boy-3" class="span4 js-claim-vuehot1-boy hide">
+															<label for="fsearchClaim-vuehot1-ninE3">Edad niño 3:</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot1-ninE3" id="fsearchClaim-vuehot1-ninE3" class="js-select-periscop">
+																<option selected="selected" value="0">0 a 3</option>
+																<option value="1">3 a 5</option>
+																<option value="2">5 a 7</option>
+															</select></div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="js-claim-vuehot-room-2" class="row clearfix js-claim-vuehot-room hide">
+												<div class="span3 form-hab"><strong>Habitación 2:</strong></div>
+												<div class="span9">
+													<div class="row clearfix">
+														<div class="span5">
+															<label for="fsearchClaim-vuehot2-adu">Adultos</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot2-adu" id="fsearchClaim-vuehot2-adu" class="js-select-periscop">
+																<option selected="selected" value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+															</select></div>
+														</div>
+														<div class="span5">
+															<label for="fsearchClaim-vuehot2-nin">Niños</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot2-nin" id="fsearchClaim-vuehot2-nin" class="js-select-periscop" onchange="viewBlock('js-claim-vuehot2-boy', this.value);">
+																<option selected="selected" value="0">0</option>
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+															</select></div>
+														</div>
+													</div>
+													<div class="row clearfix">
+														<div id="js-claim-vuehot2-boy-1" class="span4 js-claim-vuehot2-boy hide">
+															<label for="fsearchClaim-vuehot2-ninE1">Edad niño 1:</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot2-ninE1" id="fsearchClaim-vuehot2-ninE1" class="js-select-periscop">
+																<option selected="selected" value="0">0 a 3</option>
+																<option value="1">3 a 5</option>
+																<option value="2">5 a 7</option>
+															</select></div>
+														</div>
+														<div id="js-claim-vuehot2-boy-2" class="span4 js-claim-vuehot2-boy hide">
+															<label for="fsearchClaim-vuehot2-ninE2">Niño 2:</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot2-ninE2" id="fsearchClaim-vuehot2-ninE2" class="js-select-periscop">
+																<option selected="selected" value="0">0 a 3</option>
+																<option value="1">3 a 5</option>
+																<option value="2">5 a 7</option>
+															</select></div>
+														</div>
+														<div id="js-claim-vuehot2-boy-3" class="span4 js-claim-vuehot2-boy hide">
+															<label for="fsearchClaim-vuehot2-ninE3">Edad niño 3:</label>
+															<div class="pr-auto size-special"><select name="fsearchClaim-vuehot2-ninE3" id="fsearchClaim-vuehot2-ninE3" class="js-select-periscop">
+																<option selected="selected" value="0">0 a 3</option>
+																<option value="1">3 a 5</option>
+																<option value="2">5 a 7</option>
+															</select></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<label for="fsearchClaim-vuehot-pri" class="rc">
+											<input type="checkbox" name="fsearchClaim-vuehot-pri" id="fsearchClaim-vuehot-pri"> Soy <a href="javascript:void(0);" title="Leer más: Soy residente">residente</a> o <a href="javascript:void(0);" title="Leer más: Familia numerosa">familia numerosa</a>
+										</label>
+									</div>
+								</div>
+								<div class="acc"><div class="pr-btt"><input type="submit" value="Buscar Vuelo+Hotel" class="button-search brd"></div></div>
+							</fieldset>
+						</form>
+						<!-- E: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR: BUSCADOR VUELOS + HOTELES -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- E: CONTENIDO DE LAS ZONA CENTRAL CLAIM/BUSCADOR -->
+		
+		<!-- B: CONTENIDO DE LAS ZONA CENTRAL OFERTAS -->
+		<div class="container clearfix">
+			<!-- B: SECCON: CONTENIDO CENTRAL -->
+			<section id="content">
+				<h2 class="tit">
+					<span>Ofertas disponibles</span><br>
+					Para ti que estás en Barcelona<br>
+				</h2>
+				<div class="center"><a href="javascript:void(0);" title="Cambia de ciudad para consultar otras ofertas disponibles en viajes, vuelos y hoteles" class="link-icon"><i class="icon-change"></i>Cambiar ciudad</a></div>
+				<div class="padd-top clearfix">
+					<div class="float-left"><strong class="legend">Elige los criterios que quieras:</strong></div>
+					<div class="float-right"><a href="javascript:void(0);" title="Ver y consultar ofertas sobre mapa" class="link-icon medium"><i class="icon-locate"></i>Ver ofertas sobre mapa</a></div>
+				</div>
+				<ul class="list-tags clearfix">
+					<li class="active"><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Todas las ofertas 200+" class="link-tag all"><i class="icon-tag-all"></i>Todas las ofertas 200 +</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Familia" class="link-tag">Familia</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Nacional" class="link-tag">Nacional</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Última hora" class="link-tag">Última hora</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Próximo fin de semana" class="link-tag">Próximo fin de semana</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Semana Santa" class="link-tag">Semana Santa</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Puente de Mayo" class="link-tag">Puente de Mayo</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Navidad" class="link-tag">Navidad</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Mayores" class="link-tag">Mayores</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Niños" class="link-tag">Niños</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Jóvenes" class="link-tag">Jóvenes</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Europa" class="link-tag">Europa</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Resto del mundo" class="link-tag">Resto del mundo</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Aventura" class="link-tag">Aventura</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Natura" class="link-tag">Natura</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Cultura" class="link-tag">Cultura</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Urbano" class="link-tag">Urbano</a></li>
+					<li><a href="javascript:void(0);" title="Ver ofertas en Barcelona con interes Gastronómico" class="link-tag">Gastronómico</a></li>
+				</ul>
+				<h2 class="tit-small">Te mostramos viajes <a href="#" title="Consultar y ver ofertas en viajes nacionales" class="link-text">nacionales</a> de <a href="#" title="Consultar y ver ofertas en viajes aventura" class="link-text">aventura</a> y <a href="#" title="Consultar y ver ofertas en viajes naturaleza" class="link-text">naturaleza</a>, para <a href="#" title="Consultar y ver ofertas en viajes Semana Santa" class="link-text">Semana Santa</a></h2>
+				<!-- B: COMIENZO ESTRUCTURA DE OFERTAS 1x2 -->
+				<div class="row clearfix">
+					<!-- B: DETALLE OFERTA CAJA 1x3 -->
+					<div class="box-dealS1x3 span4">
+						<div class="box">
+							<div class="img"><a href="#" title="Destino: Ecuador"><img src="pub/list_deal_box1/img3.jpg" width="300" height="172" alt="Santiago: Parador de Santiago - Hostal Reis Católicos"></a></div>
+							<div class="txt">
+								<h3><a href="#" title="Destino: Santiago">Santiago</a></h3>
+								<p><span><i class="icon-flash"></i>Oferta Flash</span></p>
+							</div>
+						</div>
+						<h4><a href="#" title="Destino: Santiago">Parador de Santiago - Hostal Reis Católicos</a></h4>
+						<div class="box-price clearfix">
+							<ul>
+								<li><i class="icon-type-hotelOFlight"></i><span class="class"><strong>Sólo hotel</strong></span> <span class="from">desde</span> <span class="price"><strong>180€</strong></span> <span class="price-old">antes 320€</span></li>
+								<li><i class="icon-type-hotelFlight"></i><span class="class"><strong>Vuelo+hotel</strong></span> <span class="from">desde</span> <span class="price"><strong>450€</strong></span> <span class="price-old">antes 640€</span></li>
+							</ul>
+						</div>
+						<div class="acc"><a href="#" title="Destino: Ecuador" class="link-button brd ng">Ver oferta</a></div>
+					</div>
+					<!-- E: DETALLE OFERTA CAJA 1x3 -->
+					<!-- B: DETALLE OFERTA CAJA 2x3 -->
+					<div class="box-dealS2x3 span8">
+						<div class="box">
+							<div class="img"><a href="#" title="Destino: Segovia"><img src="pub/list_deal_box2/img1.jpg" width="620" height="291" alt="Segovia: Escapada y fonda 5* en Segovia"></a></div>
+							<div class="txt">
+								<h3><a href="#" title="Destino: Segovia">Segovia</a></h3>
+								<h4><a href="#" title="Destino: Segovia">Escapada y fonda 5* en Segovia</a></h4>
+							</div>
+						</div>
+						<div class="box-price clearfix">
+							<ul>
+								<li><i class="icon-type-hotelOFlight"></i><span class="class"><strong>Sólo hotel</strong></span> <span class="from-old">antes</span> <span class="price-old">320€</span><span class="from">ahora</span> <span class="price"><strong>180€</strong></span> <span class="anx">Por persona</span></li>
+								<li><i class="icon-type-hotelFlight"></i><span class="class"><strong>Vuelo+hotel</strong></span> <span class="from-old">antes</span> <span class="price-old">2.640€</span> <span class="from">ahora</span> <span class="price"><strong>450€</strong></span> <span class="anx">Por persona</span></li>
+							</ul>
+							<div class="acc"><a href="#" title="Destino: Lo quiero" class="link-button-big brd ng">Lo quiero</a></div>
+						</div>
+					</div>
+					<!-- E: DETALLE OFERTA CAJA 2x3 -->
+				</div>
+				<!-- E: COMIENZO ESTRUCTURA DE OFERTAS 1x2 -->
+				<div class="row clearfix">
+					<!-- B: DETALLE OFERTA CAJA 1x3 -->
+					<div class="box-dealS1x3 span4">
+						<div class="box">
+							<div class="img"><a href="#" title="Destino: Ecuador"><img src="pub/list_deal_box1/img1.jpg" width="300" height="172" alt="Ecuador: Aventura en Quito"></a></div>
+							<div class="txt">
+								<h3><a href="#" title="Destino: Ecuador">Ecuador</a></h3>
+							</div>
+						</div>
+						<h4><a href="#" title="Destino: Ecuador">Aventura en Quito</a></h4>
+						<div class="box-price">
+							<ul>
+								<li><i class="icon-type-hotelOFlight"></i><span class="class"><strong>Sólo hotel</strong></span> <span class="from">desde</span> <span class="price"><strong>180€</strong></span> <span class="price-old">antes 320€</span></li>
+								<li><i class="icon-type-hotelFlight"></i><span class="class"><strong>Vuelo+hotel</strong></span> <span class="from">desde</span> <span class="price"><strong>450€</strong></span> <span class="price-old">antes 640€</span></li>
+							</ul>
+						</div>
+						<div class="acc"><a href="#" title="Destino: Ecuador" class="link-button ng brd">Ver oferta</a></div>
+					</div>
+					<!-- E: DETALLE OFERTA CAJA 1x3 -->
+					<!-- B: DETALLE OFERTA CAJA 1x3 -->
+					<div class="box-dealS1x3 span4">
+						<div class="box">
+							<div class="img"><a href="#" title="Destino: Toscana"><img src="pub/list_deal_box1/img2.jpg" width="300" height="172" alt="Toscana: Familiar 5* en la Toscana"></a></div>
+							<div class="txt">
+								<h3><a href="#" title="Destino: Toscana">Toscana</a></h3>
+								<p><span><i class="icon-hotel"></i>Hotel especial para familias</span></p>
+							</div>
+						</div>
+						<h4><a href="#" title="Destino: Toscana">Familiar 5* en la Toscana</a></h4>
+						<div class="box-price">
+							<ul>
+								<li><i class="icon-type-hotelOFlight"></i><span class="class"><strong>Sólo hotel</strong></span> <span class="from">desde</span> <span class="price"><strong>180€</strong></span> <span class="price-old">antes 320€</span></li>
+								<li><i class="icon-type-hotelFlight"></i><span class="class"><strong>Vuelo+hotel</strong></span> <span class="from">desde</span> <span class="price"><strong>450€</strong></span> <span class="price-old">antes 640€</span></li>
+							</ul>
+						</div>
+						<div class="acc"><a href="#" title="Destino: Toscana" class="link-button ng brd">Ver oferta</a></div>
+					</div>
+					<!-- E: DETALLE OFERTA CAJA 1x3 -->
+					<!-- B: DETALLE OFERTA CAJA 1x3 -->
+					<div class="box-dealS1x3 span4">
+						<div class="box-deco-letsgo">
+							<h3><i class="deco-periscop-normal"></i><span> ¿No sabes dónde ir? </span><a href="#" title="Te ayudamos a decidir donde pasar tus próximas vacaciones">Nosotros te recomendamos</a><br>
+							</h3>
+						</div>
+						<div class="box-deco-savemoney">
+							<p><strong>La comunidad Periscop ya se ha ahorrado</strong> <a href="#" title="Más información de como ahorrar con Periscop" class="link-text xbig">350.476 €</a> <span>y eso sólo en los último 10 días!</span></p>
+						</div>
+					</div>
+					<!-- E: DETALLE OFERTA CAJA 1x3 -->
+				</div>
+				<!-- B: DETALLE OFERTA CAJA 3x3 -->
+				<div class="box-dealS3x3">
+					<div class="box">
+						<div class="img"><a href="#" title="Destino: Villafranca del penedés"><img src="pub/list_deal_box3/img1.jpg" width="940" height="310" alt="Villafranca del penedés: Fines de semana 5* regados con los mejores vinos"></a></div>
+						<div class="txt">
+							<h3><a href="#" title="Destino: Villafranca del penedés">Villafranca del penedés</a></h3>
+							<h4><a href="#" title="Destino: Villafranca del penedés">Fines de semana 5* regados con los mejores vinos</a></h4>
+						</div>
+					</div>
+					<div class="box-price clearfix">
+						<ul>
+							<li><i class="icon-type-hotel"></i><span class="class"><strong>Sólo hotel</strong></span> <span class="from-old">antes</span> <span class="price-old">320€</span><span class="from">ahora</span> <span class="price"><strong>180€</strong></span> <span class="anx">Por persona</span></li>
+							<li><i class="icon-type-hotelFlight"></i><span class="class"><strong>Vuelo+hotel</strong></span> <span class="from-old">antes</span> <span class="price-old">2.640€</span> <span class="from">ahora</span> <span class="price"><strong>450€</strong></span> <span class="anx">Por persona</span></li>
+						</ul>
+						<div class="acc"><a href="#" title="Destino: Villafranca del penedés" class="link-button-big ng brd">Lo quiero</a></div>
+					</div>
+				</div>
+				<!-- E: DETALLE OFERTA CAJA 3x3 -->
+				<p class="center"><a href="#" title="Consulta en Periscop las ofertas nacionales disponibles (23)" class="link-text big">Ver las ofertas nacionales disponibles (23)</a></p>
+				<p class="center"><a href="#" title="Ver todas las ofertas disponibles en viajes, vuelos y hoteles en Periscop" class="link-button brd">Ver todas las ofertas</a></p>
+			</section>
+			<!-- E: SECCON: CONTENIDO CENTRAL -->
+		</div>
+		<!-- E: CONTENIDO DE LAS ZONA CENTRAL OFERTAS -->
+		<!-- B: SECCON: FORMULARIO DE RECOMENDADOR -->
+		<section id="content-rec" class="container-big rec-search">
+			<h2>
+				<i class="icon-periscop-ng"></i>
+				<span>¿No sabes dónde ir?</span><br>
+				¡Siempre hay un Periscop a tu medida!
+			</h2>
+			<form name="fsearch-rec" id="fsearch-rec" method="post" action="#" class="form ng">
+				<fieldset class="pr">
+					<legend>Formulario de búsqueda de ofertas de tu viaje perfecto con Periscop</legend>
+					<div class="rec-box brd">
+						<div class="clearfix">
+							<label for="fsearch-rec-des">Quieres salir desde...</label>
+							<div class="pr-auto"><input type="text" name="fsearch-rec-des" id="fsearch-rec-des" value="País, ciudad, Hotel" class="size-xlarge brd cps"><a href="javascript:void(0);" title="Selecciona tu destino" class="btt-locate">Selecciona tu destino</a></div>
+						</div>
+						<div class="row clearfix">
+							<div class="span6">
+								<label for="fsearch-rec-dias">¿Cuántos días?</label>
+								<div class="pr-auto"><select name="fsearch-rec-dias" id="fsearch-rec-dias" class="js-select-periscop">
+									<option value="23" selected="selected">2-3 días</option>
+									<option value="1s">1 semana</option>
+									<option value="2s">2 semanas</option>
+									<option value="1m">Un mes</option>
+								</select></div>
+							</div>
+							<div class="span6">
+								<label for="fsearch-rec-fechaIni">¿Cuándo irás?</label>
+								<div class="pr-auto"><select name="fsearch-rec-fechaIni" id="fsearch-rec-fechaIni" class="js-select-periscop">
+									<option value="e">Enero</option>
+									<option value="f">Febrero</option>
+									<option value="m">Marzo</option>
+									<option value="a">Abril</option>
+									<option value="my">Mayo</option>
+									<option value="j">Junio</option>
+									<option value="jl">Julio</option>
+									<option value="ag">Agosto</option>
+									<option value="s" selected="selected">Septiembre</option>
+									<option value="o">Octubre</option>
+									<option value="n">Noviembre</option>
+									<option value="d">Diciembre</option>
+								</select></div>
+							</div>
+						</div>
+						<div class="help-link"><a href="javascript:void(0);" title="Selecciona los dias exactos, clic aquí" class="link-text">¿Quieres seleccionar los días exactos?</a></div>
+						<div class="clearfix">
+							<label for="fsearch-rec-aco">¿Con quién vas?</label>
+							<div class="pr-auto size-rec"><select name="fsearch-rec-aco" id="fsearch-rec-aco" class="js-select-periscop">
+								<option value="p" selected="selected">Con mi pareja</option>
+								<option value="s">Sólo/a</option>
+								<option value="a">Con mis amigos</option>
+								<option value="f">Con mi familia</option>
+							</select></div>
+						</div>
+						<div class="clearfix">
+							<label for="fsearch-rec-hobby">¿Qué te apetece?</label>
+							<div class="pr-auto size-rec"><select name="fsearch-rec-hobby" id="fsearch-rec-hobby" class="js-select-periscop">
+								<option value="t" selected="selected">Ir a un lugar tranquilo</option>
+								<option value="e">Algo exótico</option>
+								<option value="a">Algo arriesgado</option>
+							</select></div>
+						</div>
+					</div>
+					<div class="rec-slider clearfix hide">
+						<div>
+							<label for="fsearch-rec-precio">¿Presupuesto máximo?</label>
+							<ul>
+								<li>0€</li>
+								<li>50€</li>
+								<li>100€</li>
+								<li>150€</li>
+								<li>200€</li>
+								<li>250€</li>
+								<li>300€</li>
+							</ul>
+						</div>
+					</div>
+					<div class="acc"><div class="pr-btt"><input type="submit" value="¡INSPIRADME!" class="button-search brd"></div></div>
+				</fieldset>
+			</form>
+		</section>
+		<!-- B: SECCON: TE LO PONEMOS FACIL -->
+		<section id="recomendador" class="container clearfix rec-info">
+			<h2 class="tit">
+				<span>Te lo ponemos fácil</span><br>
+				Con las mejores herramientas para encontrar el viaje que necesitas<br>
+			</h2>
+			<ul class="row clearfix">
+				<li class="span6">
+					<h3><a href="#" title="Consulta Tu asesor de viajes personalizado en Periscop"><i class="deco-rec-asistant-mini"></i><span>Tu asesor de viajes personalizado</span></a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio justo, porta vel rhoncus id, viverra ut libero. Suspendisse non nulla velit, nec tempor arcu. Vivamus a luctus est.</p>
+					<div class="pr-btt"><a href="#" title="Consulta Tu asesor de viajes personalizado en Periscop" class="link-button brd">Sorpréndete</a></div>
+				</li>
+				<li class="span6">
+					<h3><a href="#" title="Conoce tu perfil viajero en Periscop"><i class="deco-rec-user-mini"></i><span>Conoce tu perfil de viajero</span></a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio justo, porta vel rhoncus id, viverra ut libero. Suspendisse non nulla velit, nec tempor arcu. Vivamus a luctus est.</p>
+					 <a href="#" title="Conoce tu perfil viajero en Periscop" class="link-button brd">Descúbrelo</a></div>
+				</li>
+			</ul>
+		</section>
+		<!-- E: SECCON: TE LO PONEMOS FACIL -->
+		<!-- E: SECCON: FORMULARIO DE RECOMENDADOR -->
+		<!-- B: SECCION: PERISCOP BLOG -->
+		<section id="blog" class="blog container-big clearfix">
+			<div id="carrusel-blog" class="carousel slide js-carousel-blog">
+				<h2><a href="#" title="Consulta diarimente tu Blog de viajes en Periscop"><i class="icon-blog-big-ng"></i><span>Blog de viajes</span></a></h2>
+				<div class="carousel-inner">
+					<div class="active item">
+						<div class="img"><img src="pub/blog_home/hamburgo.jpg" width="1280" height="600" border="0" alt="Post sobre: Hamburgo"></div>
+						<div class="txt">
+							<h3><a href="#" title="Lee el post: Hamburgo">Hamburgo</a></h3>
+							<p>Lorem ipsum dolor sit amet, id duo nominati iracundia, percipitur scribentur</p>
+							<div class="pr-btt"><a href="" title="Lee el post: Hamburgo" class="link-button brd">Ir al blog</a></div>
+						</div>
+						<div class="post-prev"><span>Anterior post:</span> Toscana</div>
+						<div class="post-next"><span>Siguiente post:</span> Egipto</div>
+					</div>
+					<div class="item">
+						<div class="img"><img src="pub/blog_home/egipto.jpg" width="1280" height="600" border="0" alt="Post sobre: Egipto"></div>
+						<div class="txt">
+							<h3><a href="#" title="Lee el post: Egipto">Egipto</a></h3>
+							<p>Lorem ipsum dolor sit amet, id duo nominati iracundia, percipitur scribentur</p>
+							<div class="pr-btt"><a href="" title="Lee el post: Egipto" class="link-button brd">Ir al blog</a></div>
+						</div>
+						<div class="post-prev"><span>Anterior post:</span> Hamburgo</div>
+						<div class="post-next"><span>Siguiente post:</span> Toscana</div>
+					</div>
+					<div class="item">
+						<div class="img"><img src="pub/blog_home/toscana.jpg" width="1280" height="600" border="0" alt="Post sobre: Toscana"></div>
+						<div class="txt">
+							<h3><a href="#" title="Lee el post: Toscana">Toscana</a></h3>
+							<p>Lorem ipsum dolor sit amet, id duo nominati iracundia, percipitur scribentur</p>
+							<div class="pr-btt"><a href="" title="Lee el post: Toscana" class="link-button brd">Ir al blog</a></div>
+						</div>
+						<div class="post-prev"><span>Anterior post:</span> Egipto</div>
+						<div class="post-next"><span>Siguiente post:</span> Hamburgo</div>
+					</div>
+				</div>
+				<div class="pr">
+					<a class="carousel-control left" href="#carrusel-blog" data-slide="prev">anterior</a>
+					<a class="carousel-control right" href="#carrusel-blog" data-slide="next">siguiente</a>
+				</div>
+			</div>
+		</section>
+		<!-- E: SECCION: PERISCOP BLOG -->
+		<!-- B: PIE -->
+		<footer class="footer container-big clearfix">
+			<div class="container-big-content">
+				<div class="row clearfix">
+					<section class="footer-content span3">
+						<p><strong>Lorem ipsum dolor sit amet</strong></p>
+						<img src="pub/logos/unicef.gif" width="195" height="201" border="0" alt="Unicef">
+					</section>
+					<div class="span6">
+						<section class="footer-share">
+							<h3>Encuéntranos en las redes sociales</h3>
+							<ul class="share-links">
+								<li><a href="#" title="Accede a Periscop en Twitter" class="logo-twitter">Periscop en Twitter</a></li>
+								<li><a href="#" title="Accede a Periscop en Facebook" class="logo-facebook">Periscop en Facebook</a></li>
+								<li><a href="#" title="Accede a las RSS de Periscop" class="logo-rss">RSS de Periscop</a></li>
+								<li><a href="#" title="Accede a Periscop en Spotify" class="logo-spotify">Periscop en Spotify</a></li>
+								<li><a href="#" title="Accede a Periscop en Vimeo" class="logo-vimeo">Periscop en Vimeo</a></li>
+								<li><a href="#" title="Accede a Periscop en Instagram" class="logo-instagram">Periscop en Instagram</a></li>
+							</ul>
+							<p class="txt">
+								¡Cuelga la foto o tuitea con el tag <a href="#" title="Sigue el hastag #periscop en Twitter" class="link-text">#periscop</a><br>
+								y gana <a href="#" title="Descubre como ganar 10€ de descuento en Periscop" class="link-text big">gana 10€ de descuento</a> para tu próximo viaje!<br>
+							</p>
+							<ul class="buttons row clearfix">
+								<li class="span6"><div class="pr-btt"><a href="#" title="Sigue a Periscop en Linkedin" class="link-button-footer brd"><i class="icon-linkedin"></i><span>Siguenos en Linkdein si quieres trabajar con nosotros</span></a></div></li>
+								<li class="span6"><div class="pr-btt"><a href="#" title="Descarga en tu Iphone la aplicación de periscop" class="link-button-footer brd"><i class="icon-mobile"></i><span>Disponible iPhone, iPad, iPod <strong class="applestore">App Store</strong></span></a></div></li>
+							</ul>
+						</section>
+						<section class="footer-howbuy">
+							<h3 class="hide">Modos de pago 100% seguros en Periscop</h3>
+							<ul>
+								<li class="logo-verisign">Pago seguro y garanrizado con Verisign</li>
+								<li class="logo-visa">Con tarjeta Visa</li>
+								<li class="logo-visaelectron">Con tarjeta Visa Electron</li>
+								<li class="logo-mastercad">Con tarjeta Mastercard</li>
+								<li class="logo-paypal">Con Paypal</li>
+							</ul>
+						</section>
+					</div>
+					<section class="footer-instagram span3">
+						<h3>Los fotos de nuestros viajeros <span>en Instragram</span></h3>
+						<div id="instagram-blog" class="carousel slide js-instagram-blog">
+							<div class="carousel-inner">
+								<div class="active item">
+									<ul class="row clearfix">
+										<li class="clear-row span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/1.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/2.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="clear-row span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/3.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/4.jpg" width="97" height="93" alt="XXXX"></a></li>
+									</ul>
+								</div>
+								<div class="item">
+									<ul class="row clearfix">
+										<li class="clear-row span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/5.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/6.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="clear-row span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/7.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/8.jpg" width="97" height="93" alt="XXXX"></a></li>
+									</ul>
+								</div>
+								<div class="item">
+									<ul class="row clearfix">
+										<li class="clear-row span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/9.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/10.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="clear-row span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/11.jpg" width="97" height="93" alt="XXXX"></a></li>
+										<li class="span6"><a href="#" title="Ver foto en Instragram"><img src="pub/instagram/12.jpg" width="97" height="93" alt="XXXX"></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="pr">
+								<a class="carousel-control left" href="#instagram-blog" data-slide="prev">anterior</a>
+								<a class="carousel-control right" href="#instagram-blog" data-slide="next">siguiente</a>
+							</div>
+							<div class="logo"><a href="#" title="Descubre Periscop en Instagram" target="_blank"><img src="theme/default/images/travel/img/ico_instagram.png" width="74" height="26" border="0" alt="Descubre Periscop en Instagram"></a></div>
+						</div>
+					</section>
+				</div>
+				<section class="footer-links clearfix">
+					<article class="col5f1-c1">
+						<h4>Ofertas Flash <span>de viajes en Periscop</span></h4>
+						<ul>
+							<li><a href="#" title="XXX">Consectetuer adipiscing</a></li>
+							<li><a href="#" title="XXX">Nonummy</a></li>
+							<li><a href="#" title="XXX">Rnibh euismod</a></li>
+							<li><a href="#" title="XXX">Tlaoreet dolore</a></li>
+							<li><a href="#" title="XXX">Yaliquam</a></li>
+							<li><a href="#" title="XXX">Enim ad minim</a></li>
+						</ul>
+					</article>
+					<article class="col5f1-c2">
+						<h4>Destinos <span>en viajes en Periscop</span></h4>
+						<ul>
+							<li><a href="#" title="XXX">Consectetuer adipiscing</a></li>
+							<li><a href="#" title="XXX">Nonummy</a></li>
+							<li><a href="#" title="XXX">Rnibh euismod</a></li>
+							<li><a href="#" title="XXX">Tlaoreet dolore</a></li>
+							<li><a href="#" title="XXX">Yaliquam</a></li>
+							<li><a href="#" title="XXX">Enim ad minim</a></li>
+						</ul>
+					</article>
+					<article class="col5f1-c3">
+						<h4>Te ayudamos <span>en Periscop</span></h4>
+						<ul>
+							<li><a href="#" title="XXX">Consectetuer adipiscing</a></li>
+							<li><a href="#" title="XXX">Nonummy</a></li>
+							<li><a href="#" title="XXX">Rnibh euismod</a></li>
+							<li><a href="#" title="XXX">Tlaoreet dolore</a></li>
+							<li><a href="#" title="XXX">Yaliquam</a></li>
+							<li><a href="#" title="XXX">Enim ad minim</a></li>
+						</ul>
+					</article>
+					<article class="col5f1-c4">
+						<h4>Blog <span>de Persicop</span></h4>
+						<ul>
+							<li><a href="#" title="XXX">Consectetuer adipiscing</a></li>
+							<li><a href="#" title="XXX">Nonummy</a></li>
+							<li><a href="#" title="XXX">Rnibh euismod</a></li>
+							<li><a href="#" title="XXX">Tlaoreet dolore</a></li>
+							<li><a href="#" title="XXX">Yaliquam</a></li>
+							<li><a href="#" title="XXX">Enim ad minim</a></li>
+						</ul>
+					</article>
+					<article class="col5f1-c5">
+						<h4>Extras</h4>
+						<ul>
+							<li><a href="#" title="XXX">Consectetuer adipiscing</a></li>
+							<li><a href="#" title="XXX">Nonummy</a></li>
+							<li><a href="#" title="XXX">Rnibh euismod</a></li>
+							<li><a href="#" title="XXX">Tlaoreet dolore</a></li>
+							<li><a href="#" title="XXX">Yaliquam</a></li>
+							<li><a href="#" title="XXX">Enim ad minim</a></li>
+						</ul>
+					</article>
+				</section>
+			</div>
+			<section class="footer-general">
+				<div class="container-big-content">
+					<h3><a href="#" title="Conoce tu web de viajes, conoce Periscop">Periscop</a></h3>
+					<p>© 2011 Privalia Travel SA | <a href="#" title="Consulta las condiciones de uso de Periscop">Condiciones de uso del sitio web</a> | <a href="#" title="Consulta los accionistas de Periscop">Accionistas e inversores</a></p>
+				</div>
+			</section>
+		</footer>
+		<!-- E: PIE -->
+		
+		<!-- CARGA DE TODOS LOS JS POR SECCIÓN Y GLOBALES QUE SEAN NECESARIOS POR DEFINIR-->
+		<script>window.jQuery || document.write('<script src="/static/scripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+		<script src="static/scripts/libs/jquery.dropkick.js"></script>
+		<script src="static/scripts/libs/jquery.ezmark.min.js"></script>
+		<script src="static/scripts/libs/prettify.js"></script>
+		<script src="static/scripts/libs/jquery-ui-1.10.0.custom.min.js"></script>
+		<script src="static/scripts/libs/min.js"></script>
+		<script src="static/scripts/funciones.js"></script>
+		<script src="static/scripts/main.js"></script>
+		<!-- Google Analytics -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+	</body>
+</html>

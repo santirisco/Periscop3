@@ -1,0 +1,13 @@
+/*
+ * Fichero: ie8css3.css 
+ * Media			screen
+ * Navegadores		<IE9
+ * Empresa			Privalia
+ */
+.brd, .link-tag,
+.form .dk_container,
+.form .dk_open .dk_options,
+.form .dk_options,
+{
+	 behavior: url('PIE.htc'); 
+}

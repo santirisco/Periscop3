@@ -1,0 +1,55 @@
+.padd { padding: 15px; }
+.padd-left { padding: 15px 0px 15px 15px; }
+.padd-right { padding: 15px 15px 15px 0px; }
+.padd-center { padding: 15px 0px 15px 0px; }
+.padd-leftOnly { padding: 0px 0px 15px 15px; }
+.padd-rightOnly { padding: 0px 15px 15px 0px; }
+.padd-top { padding: 15px 0px 0px 0px; }
+.padd-bottom { padding: 0px 0px 15px 0px; }
+.padd-top-bottom { padding: 10px 0px 10px 0px; }
+.padd-filter { padding: 10px; }
+
+.marg { margin: 15px; }
+.marg-left { margin: 15px 0px 15px 15px; }
+.marg-right { margin: 15px 15px 15px 0px; }
+.marg-center { margin: 15px 0px 15px 0px; }
+.marg-leftOnly { margin: 0px 0px 15px 15px; }
+.marg-rightOnly { margin: 0px 15px 15px 0px; }
+.marg-top { margin: 15px 0px 0px 0px; }
+.marg-bottom { margin: 0px 0px 15px 0px; }
+.marg-top-bottom { margin: 10px 0px 10px 0px; }
+.marg-filter { margin: 10px; } 
+
+.pos-tr { position: absolute; top: 0; right: 0; }
+.pos-tl { position: absolute; top: 0; left: 0; }
+.pos-br { position: absolute; bottom: 0; right: 0; }
+.pos-bl { position: absolute; bottom: 0; left: 0; }
+
+.float-right { float: right; }
+.float-left { float: left; }
+
+.pr { position: relative; }
+.pa { position: absolute; }
+.pr-auto { position: relative; width: auto; }
+.pr-btt { position: relative; display: inline-block; zoom:1; *display: inline; }
+
+.right { text-align: right; }
+.left { text-align: left; }
+.center { text-align: center; }
+.center-middle { display: table-cell; text-align: center; vertical-align: middle; }
+
+.inline { display: inline-block !important; zoom:1; *display: inline; margin-right: 8px; }
+.block { display: block !important; }
+.viewMovil { display: none !important; }
+.hide { display: none !important; }
+.show { display: block !important; }
+.invisible { visibility: hidden !important; }
+.affix { position: fixed; }
+.clear { clear: both; }
+.clear-row { margin-left: 0px !important; clear: both; }
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: ""; }
+.clearfix:after { clear: both; }
+
+.brd, .link-tag { position: relative;}

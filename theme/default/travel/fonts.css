@@ -1,0 +1,45 @@
+/* Style charge Fonts specials */
+@font-face {
+    font-family: 'barnaregular';
+    src: url('fonts/barna_regular.eot');
+    src: url('fonts/barna_regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/barna_regular.woff') format('woff'),
+         url('fonts/barna_regular.ttf') format('truetype'),
+         url('fonts/barna_regular.svg#barnaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
+@font-face {
+    font-family: 'barnabold';
+    src: url('fonts/barna_bold.eot');
+    src: url('fonts/barna_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/barna_bold.woff') format('woff'),
+         url('fonts/barna_bold.ttf') format('truetype'),
+         url('fonts/barna_bold.svg#barnabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
+@font-face {
+    font-family: 'barnasemibold';
+    src: url('fonts/barna_semibold.eot');
+    src: url('fonts/barna_semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/barna_semibold.woff') format('woff'),
+         url('fonts/barna_semibold.ttf') format('truetype'),
+         url('fonts/barna_semibold.svg#barnasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
+@font-face {
+    font-family: 'periscop';
+    src: url('fonts/barna_periscop.eot');
+    src: url('fonts/barna_periscop.eot?#iefix') format('embedded-opentype'),
+         url('fonts/barna_periscop.woff') format('woff'),
+         url('fonts/barna_periscop.ttf') format('truetype'),
+         url('fonts/barna_periscop.svg#periscop') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
